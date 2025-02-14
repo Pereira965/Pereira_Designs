@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pereira Designs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4B0082; /* Purple background */
+            color: white;
+            text-align: center;
+        }
+        .header {
+            padding: 20px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .shop-button {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            background-color: white;
+            color: #4B0082;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .footer {
+            padding: 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Pereira Designs</div>
+    
+    <div class="gallery">
+        <img src="placeholder1.jpg" alt="Jewelry Piece 1">
+        <img src="placeholder2.jpg" alt="Jewelry Piece 2">
+        <img src="placeholder3.jpg" alt="Jewelry Piece 3">
+    </div>
+    
+    <a href="#shop" class="shop-button">Shop Now</a>
+    
+    <div class="footer">&copy; 2025 Pereira Designs | Bold. Simple. Elegant.</div>
+</body>
+</html>
